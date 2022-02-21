@@ -5,13 +5,13 @@ var onAboutUs=function(req, res){
     res.send("Chief Mentor :Ravi Tambade");
 };
 var onDefault=function(req, res){
-    res.send("<h1>Transflower Learning Pvt. Ltd</h1>"+
+    res.send("<h1>Contoso company pvt. ltd</h1>"+
               "<hr/>"+
               "<ol>"+
-                    " <li>Mentoring for skill building</li>"+
-                    " <li>Workshops</li>"+
-                    " <li>Online Course</li>"+
-                    " <li>Corporate Training</li>"+
+                    " <li>we provide world class solution to our customers</li>"+
+                    " <li>we have 12 offices all over the world</li>"+
+                    " <li>join us to grow </li>"+
+                    " <li>to know more visit our website: contoso.com</li>"+
              "</ol>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
